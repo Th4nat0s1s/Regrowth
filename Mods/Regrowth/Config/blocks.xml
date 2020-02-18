@@ -1,3 +1,5 @@
+<Regrowth>
+
 <!-- Possible Regrowing Crops mod start -->
 
 <!-- CUSTOM -->
@@ -37,7 +39,7 @@
 
 <!-- END CUSTOM -->
 
-
+<!--
 
 <block name="plantedYucca3HarvestRandomHelper">
     <property name="Extends" value="plantedYucca3Harvest" param1="MultiBlockDim" />
@@ -49,3 +51,7 @@
     <property name="FilterTags" value="foutdoor,fcrops,fdesign" />
     <property name="DowngradeBlock" value="plantedYucca1_custom1" />
 </block>
+
+-->
+
+</Regrowth>
