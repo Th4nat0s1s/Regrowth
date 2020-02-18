@@ -37,6 +37,8 @@
 
 </append>
 
+<xpath append="/blocks/block[@name='plantedYucca3Harvest']/property[@name='DowngradeBlock']/@value">plantedYucca1_custom1</append>
+
 <!-- END CUSTOM -->
 
 <!--
