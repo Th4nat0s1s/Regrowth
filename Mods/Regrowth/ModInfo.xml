@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Regrowth" />
+		<Description value="A wild crop modlet for 7DtD A18. It makes wild crops re-growable so you never run out of wild crops in an area!" />
+		<Author value="Th4nat0s1s" />
+		<Version value="0.1" />
+	</ModInfo>
+</xml>

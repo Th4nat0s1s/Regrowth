@@ -1,0 +1,10 @@
+<block name="plantedYucca3HarvestRandomHelper">
+    <property name="Extends" value="plantedYucca3Harvest" param1="MultiBlockDim" />
+    <property name="CreativeMode" value="Dev" />
+    <property name="CustomIcon" value="plantedYucca3Harvest" />
+    <property name="CustomIconTint" value="ff8080" />
+    <property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc" />
+    <property name="DisplayInfo" value="Name" />
+    <property name="FilterTags" value="foutdoor,fcrops,fdesign" />
+    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+</block>

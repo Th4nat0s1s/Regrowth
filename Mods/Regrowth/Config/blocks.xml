@@ -1,6 +1,6 @@
 <Regrowth>
 
-<!-- Possible Regrowing Crops mod start -->
+<!-- Regrowing Wild Crops Mod -->
 
 <!-- CUSTOM -->
 
@@ -36,25 +36,23 @@
     <property name="DowngradeBlock" value="plantedYucca1_custom1" />
 </block>
 
-</append>
 
-<xpath append="/blocks/block[@name='plantedYucca3Harvest']/property[@name='DowngradeBlock']/@value">plantedYucca1_custom1</append>
+
+</append>
 
 <!-- END CUSTOM -->
 
-<!--
-
-<block name="plantedYucca3HarvestRandomHelper">
-    <property name="Extends" value="plantedYucca3Harvest" param1="MultiBlockDim" />
-    <property name="CreativeMode" value="Dev" />
-    <property name="CustomIcon" value="plantedYucca3Harvest" />
-    <property name="CustomIconTint" value="ff8080" />
-    <property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc" />
-    <property name="DisplayInfo" value="Name" />
-    <property name="FilterTags" value="foutdoor,fcrops,fdesign" />
-    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
-</block>
-
--->
+<append xpath="/blocks/block[@name='plantedYucca3Harvest']"><property name="DowngradeBlock" value="plantedYucca1_custom1" /></append>
 
 </Regrowth>
+
+<!--
+
+<append xpath="/blocks/block[@name='plantedYucca3Harvest']"><property name="DowngradeBlock" value="plantedYucca1_custom1" /></append>
+
+
+<insertAfter xpath="/blocks/block[@name='plantedYucca3Harvest']">
+	<property name="DowngradeBlock" value="plantedYucca1_custom1"/>
+</insertAfter>
+
+-->
