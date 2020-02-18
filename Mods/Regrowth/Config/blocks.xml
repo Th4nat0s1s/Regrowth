@@ -15,6 +15,7 @@
     <property name="PlantGrowing.Next" value="plantedYucca2_custom1" />
     <property name="DowngradeBlock" value="plantedYucca1_custom1" />
 	<property name="ImposterDontBlock" value="true" />
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 </block>
 
 <block name="plantedYucca2_custom1">
@@ -25,6 +26,7 @@
     <property name="PlantGrowing.Next" value="plantedYucca3Harvest_custom1" />
     <drop event="Harvest" name="foodCropYuccaFruit" count="1" />
     <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+	<property name="PlantGrowing.FertileLevel" value="0"/>
 </block>
 
 <block name="plantedYucca3Harvest_custom1">
