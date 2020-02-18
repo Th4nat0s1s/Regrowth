@@ -1,0 +1,51 @@
+<!-- Possible Regrowing Crops mod start -->
+
+<!-- CUSTOM -->
+
+<append xpath="/blocks">
+
+<block name="plantedYucca1_custom1">
+    <property name="Extends" value="cropsGrowingMaster" param1="CustomIcon" />
+    <property name="CreativeMode" value="None" />
+    <property name="Material" value="Mcorn" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab" />
+    <property name="PlantGrowing.Next" value="plantedYucca2_custom1" />
+    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+</block>
+
+<block name="plantedYucca2_custom1">
+    <property name="Extends" value="plantedYucca1_custom1" />
+    <property name="CustomIcon" value="plantedYucca1" />
+    <property name="CreativeMode" value="None" />
+    <property name="Model" value="Entities/Plants/plant_yucca_growthPrefab" />
+    <property name="PlantGrowing.Next" value="plantedYucca3Harvest_custom1" />
+    <drop event="Harvest" name="foodCropYuccaFruit" count="1" />
+    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+</block>
+
+<block name="plantedYucca3Harvest_custom1">
+    <property name="Extends" value="cropsHarvestableMaster" />
+    <property name="Material" value="Mcorn" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="Entities/Plants/plant_yucca_harvestPrefab" />
+    <drop event="Harvest" name="foodCropYuccaFruit" count="2" tag="wildCropsHarvest" />
+    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+</block>
+
+</append>
+
+<!-- END CUSTOM -->
+
+
+
+<block name="plantedYucca3HarvestRandomHelper">
+    <property name="Extends" value="plantedYucca3Harvest" param1="MultiBlockDim" />
+    <property name="CreativeMode" value="Dev" />
+    <property name="CustomIcon" value="plantedYucca3Harvest" />
+    <property name="CustomIconTint" value="ff8080" />
+    <property name="DescriptionKey" value="plantedCropsRandomHelperGroupDesc" />
+    <property name="DisplayInfo" value="Name" />
+    <property name="FilterTags" value="foutdoor,fcrops,fdesign" />
+    <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+</block>
