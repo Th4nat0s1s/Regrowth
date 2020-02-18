@@ -14,6 +14,7 @@
     <property name="Model" value="Entities/Plants/plant_yucca_sproutPrefab" />
     <property name="PlantGrowing.Next" value="plantedYucca2_custom1" />
     <property name="DowngradeBlock" value="plantedYucca1_custom1" />
+	<property name="ImposterDontBlock" value="true" />
 </block>
 
 <block name="plantedYucca2_custom1">
